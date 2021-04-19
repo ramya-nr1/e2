@@ -1,0 +1,22 @@
+2021-04-20 00:01:47.844  INFO 16900 --- [main] c.c.p.PracticalJavaApplication           : Starting PracticalJavaApplication on DESKTOP-1S4KEI3 with PID 16900 (D:\project-1\practical-java\bin\main started by Sharan in D:\project-1\practical-java)
+2021-04-20 00:01:47.854 DEBUG 16900 --- [main] c.c.p.PracticalJavaApplication           : Running with Spring Boot v2.3.10.RELEASE, Spring v5.2.14.RELEASE
+2021-04-20 00:01:47.856  INFO 16900 --- [main] c.c.p.PracticalJavaApplication           : No active profile set, falling back to default profiles: default
+2021-04-20 00:01:52.827  WARN 16900 --- [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-04-20 00:01:55.000 ERROR 16900 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-04-20 00:02:28.715  INFO 17464 --- [main] c.c.p.PracticalJavaApplication           : Starting PracticalJavaApplication on DESKTOP-1S4KEI3 with PID 17464 (D:\project-1\practical-java\bin\main started by Sharan in D:\project-1\practical-java)
+2021-04-20 00:02:28.725 DEBUG 17464 --- [main] c.c.p.PracticalJavaApplication           : Running with Spring Boot v2.3.10.RELEASE, Spring v5.2.14.RELEASE
+2021-04-20 00:02:28.727  INFO 17464 --- [main] c.c.p.PracticalJavaApplication           : No active profile set, falling back to default profiles: default
+2021-04-20 00:02:33.386  INFO 17464 --- [main] c.c.p.PracticalJavaApplication           : Started PracticalJavaApplication in 6.296 seconds (JVM running for 9.617)
